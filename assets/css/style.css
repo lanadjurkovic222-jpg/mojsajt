@@ -1,0 +1,344 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0rem;
+
+}
+.centriranje{
+    width: 80% !important;
+    margin: 0px auto;
+}
+.d-flex{
+    display: flex;
+}
+.jc-between{
+    justify-content: space-between;
+}
+.ai-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.jc-center{
+    justify-content: center;
+}
+.d-grid{
+    display:grid;
+}
+#hero{
+    height:400px;
+    background-image: url('../img/pozadinska.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px;
+}
+#header{
+    height:50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Open Sans;
+    color:white;
+
+}
+.hero h1 {
+    transition: letter-spacing 0.3s ease;
+}
+
+.hero h1:hover {
+    letter-spacing: 2px;
+}
+
+.navbar-brand{
+    color:blueviolet;
+}
+.navbar{
+    width:100%;
+}
+.container-fluid{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.navbar-nav{
+    display:flex;
+    gap:10px;
+}
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: blueviolet;
+  transform: translateY(-2px);
+}
+#hero-deo{
+    height:300px;
+}
+#hero-text{
+    width:70%;
+    height:200px;
+    font-family: Open Sans;
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    color:white;
+}
+#hero-text  p{
+    width:60%;
+    font-size: 15px;
+    color:white;
+}
+#hero-text  span{
+    color:blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hero-kontakt a{
+    width:100%;
+}
+.hero-kontakt{
+    width:30%;
+    height:200px;
+    font-family: Open Sans;
+    color:white;
+    font-size: 20px;
+}
+#kontakt-dugme1{
+    height:50px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+#kontakt-dugme1:hover{
+    transform: translateY(-3px);
+}
+#kontakt-dugme2{
+    height:50px;
+    border: 3px solid blueviolet;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+#kontakt-dugme2:hover{
+    transform: translateY(-3px);
+}
+.hero-kontakt ul{
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+#about-me{
+    width:100%;
+    height:500px;
+}
+#slika{
+    width:40%;
+    height: 80%;
+    justify-content: center;
+    margin-top:50px;
+}
+#omeni{
+    width:40%;
+    height:150px;
+    font-family: Open Sans;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+#linija{
+    width:80px;
+    height:5px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    flex-shrink:0;
+}
+#omeni p{
+    font-size: 15px;
+}
+#link{
+    width:150px;
+    height:40px;
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    color:blueviolet;
+}
+#link p{
+    margin-bottom: 0rem !important;
+    font-weight: bold;
+}
+.kartice{
+    width:100%;
+    height:400px;
+    font-family: Open Sans;
+}
+.kartice span{
+    color:blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tri-kartice{
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+.kartica-edu{
+    height:200px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display:grid;
+    justify-content: center;
+}
+h4{
+    color:blueviolet; 
+    font-size: 15px;
+    display:flex;
+    align-items: center;
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.kartica-edu p{
+    font-size: 15px;
+}
+#skills{
+    height:300px;
+}
+#skills span{
+    font-size: 20px;
+    color:blueviolet;
+    font-weight: bold;
+}
+#vestine{
+    width:100%;
+    grid-template-columns: repeat(6, 15%);
+    column-gap:30px;
+}
+.vestina{
+    display: grid;
+    grid-template-columns:50% 50%;
+    place-content: center;
+}
+.vestina img{
+    height:70px;
+}
+.vestina h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.skill-card{
+    height:250px;
+    display: grid;
+    grid-template-rows:repeat(2, 1fr);
+}
+.progress-bar{
+    background-color: blueviolet;
+}
+#kartice3 span{
+    color:blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+}
+#kartice3{
+    height:400px;
+}
+.kartica-proj{
+    height:400px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    font-family: Open Sans;
+}
+.kartica-proj img{
+    border-radius: 10px 10px 0px 0px;
+}
+.kartica-proj p{
+    font-size: 15px;
+}
+.kartica-proj a{
+    color:blueviolet;
+    font-weight: bold;
+    font-size: 15px;
+}
+#kontakt-sekcija{
+    width:100%;
+    height: 300px;
+    background-color: #DDC5E8;
+}
+#kontakt{
+    height:300px;
+    width:40%;
+}
+#kontakt-info{
+    width:100%;
+    height: 300px;
+    justify-content: space-evenly;
+    font-family:Open Sans;
+}
+#kontakt span{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+}
+h5{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: 20px;
+}
+#forma{
+    width:60%;
+    height: 300px;
+    font-family: Open Sans;
+}
+form{
+    font-size: 20px;
+}
+.form-group{
+    margin-top: 15px;
+}
+.form-check-input:checked{
+    background-color:blueviolet;
+}
+.btn-primary{
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+.btn-primary:hover{
+    background-color: rgb(176, 115, 234);
+    border-color:rgb(176, 115, 234);
+}
+#kontaktiranje .hero-kontakt{
+    display:none;
+}
+#futer-sekcija{
+    width:100%;
+    height:200px;
+    background-color: rgb(6, 6, 52);
+    color:white;
+    font-family: Open Sans;
+}
+#futer1{
+    width:100%;
+    height:150px;
+}
+#futer1 ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#brzi-linkovi{
+    width:40%;
+}
