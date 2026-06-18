@@ -222,6 +222,13 @@ h3{
 #vestine{
     grid-template-columns: repeat(2, 1fr);
 }
+.vestina{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:10px;
+}
 .vestina img{
     height:50px;
 }
@@ -244,10 +251,7 @@ h3{
     object-fit: cover;
 }
 .proj-text{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 .kartica-proj p{
     font-size: 10px;
