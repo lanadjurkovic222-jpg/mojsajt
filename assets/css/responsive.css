@@ -36,10 +36,6 @@ h2{
    height:300px;
    width:40%;
 }
-#slika img{
-    height: 75%;
-    width:100%;
-}
 #omeni p{
     font-size: 13px;;
 }
@@ -66,7 +62,7 @@ h3{
     font-size: 13px;
 }
 #skills{
-    height:600px;
+    height:650px;
 }
 #skills span{
     font-size: 17px;
@@ -84,16 +80,15 @@ h3{
     height:300px;
 }
 #kartice3{
-    height:600px;
-}
-.proj-text{
-    width:40%;
+    height:700px;
 }
 .kartica-proj img{
     border-radius: 10px 0px 0px 10px;
+    width: 50%;
+    flex: 0 0 50%;
 }
 .kartica-proj{
-    height:250px;
+    height:200px !important;
 }
 .kartica-proj p{
     font-size: 13px;
@@ -174,10 +169,6 @@ h1{
     height:300px;
     margin-top:0px;
 }
-#slika img{
-    width:80%;
-    height:90%;
-}
 #omeni{
     width:100%;
     height:150px;
@@ -223,7 +214,7 @@ h3{
     font-size: 10px;
 }
 #skills{
-    height:600px;
+    height:650px;
 }
 #skills span{
     font-size: 13px;
@@ -241,19 +232,22 @@ h3{
     height:200px;
 }
 #kartice3{
-    height:900px;
+    height:1000px;
 }
 .kartica-proj{
-    height:250px;
-    grid-template-columns: repeat(2,1fr);
+    height:300px;
+    flex-direction: column !important;
 }
 .kartica-proj img{
-    width:60%;
-    height:250px;
-    border-radius: 10px 0px 0px 10px;
+    width:100%;
+    height:180px;
+    object-fit: cover;
 }
 .proj-text{
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .kartica-proj p{
     font-size: 10px;

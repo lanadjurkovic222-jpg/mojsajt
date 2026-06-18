@@ -172,6 +172,8 @@ h1{
     margin-top:50px;
 }
 #slika img{
+    width:100%;
+    height: auto;
     border-radius: 10px;
     transition: transform 0.4s ease;
 }
