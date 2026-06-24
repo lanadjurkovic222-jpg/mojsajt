@@ -1,3 +1,14 @@
+/*desktop*/
+@media screen and (min-width: 993px){
+
+}
+
+
+
+
+
+
+/* tablet */
 @media screen and (min-width:577px) and (max-width: 992px){
 
 #header{
@@ -50,7 +61,8 @@ h2{
     column-gap: 25px;
 }
 .kartica-edu{
-    height: 150px;
+    height: 200px;
+    padding:15px;
 }
 h4{ 
     font-size: 12px;
@@ -125,7 +137,7 @@ h5{
 
 
 
-
+/* telefon */
 @media screen and (max-width: 576px){
 
 #header{
